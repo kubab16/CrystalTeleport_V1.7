@@ -1,0 +1,19 @@
+name: CrystalTeleport
+main: crystal.main.CrystalTeleport
+version: 1.7
+api-version: 1.13
+author: kubab162	
+
+commands:
+ giveCrystal:
+  description: Add crystal
+  usage: /giveCrystal <home | spawn>
+  aliases: [home,spawn]
+  permission: op
+ sethome:
+  description: SetHome
+  usage: /<comands> name
+ setspawn:
+  description: SetHome
+  usage: /setspawn
+  permission: op

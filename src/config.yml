@@ -1,0 +1,34 @@
+#configuration database
+debug: false
+log-prefix: 'Cr'
+database: 
+ host: localhost
+ port: 3306
+#name database
+ name: minecraft
+ prefix: cr_
+#user database
+ user: root
+#password database user
+ pass: root
+ reconnect_interval: 5
+comand:
+#disamble comand = false 
+ give: true
+crystal:
+ name: Crystal
+ const: 15
+spawn:
+ name: spawn
+ const: 15
+sethome:
+ submit: "Potwierdz"
+ calnel: "Anuluj"
+ firstprice: 10
+#by how much the percentage will increase compared to the previous one
+ nextprice: 20
+ #Limit set home player
+ limit: 50
+#Natural number(true) Integer (false)
+ priseType: false
+ nomoney: Brak wystarczająco dużo pieniądzy
